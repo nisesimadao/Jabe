@@ -1,0 +1,3 @@
+[submodule "vendor/ViaBedrock"]
+	path = vendor/ViaBedrock
+	url = https://github.com/nisesimadao/Jabe-ViaBedrock.git

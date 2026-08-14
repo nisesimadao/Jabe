@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "jabe",
+	"version": "${version}",
+	"name": "Jabe",
+	"description": "Java Edition Bedrock compatibility layer for Fabric with an embedded ViaBedrock transport.",
+	"authors": [
+		"Jabe contributors"
+	],
+	"license": "GPL-3.0-or-later",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.jabe.client.JabeClient"
+		]
+	},
+	"jars": [
+		{
+			"file": "META-INF/jars/viafabricplus-jabe-4.5.5.jar"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"viafabricplus": "=4.5.5"
+	}
+}

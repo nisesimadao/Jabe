@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mineagent": {
+      "command": "node",
+      "args": [
+        "..\\MineAgent\\mcp\\mineagent-mcp.js"
+      ]
+    }
+  }
+}

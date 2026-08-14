@@ -1,0 +1,12 @@
+{
+  "jabe.multiplayer.bedrock_lan": "Bedrock LAN",
+  "jabe.lan.title": "Bedrock LANワールド",
+  "jabe.lan.searching": "ローカルネットワークを検索中...",
+  "jabe.lan.none": "Bedrock LANワールドが見つかりません",
+  "jabe.lan.found": "Bedrockワールドを%s件検出しました",
+  "jabe.lan.refresh": "再検索",
+  "jabe.lan.connecting": "%sへViaBedrock経由で接続中...",
+  "jabe.lan.bridge_unavailable": "Bedrock接続にはViaFabricPlusが必要です",
+  "jabe.lan.protocol_unsupported": "BDSプロトコル%sはViaBedrockプロトコル%sでは未対応です",
+  "jabe.lan.connect_failed": "Bedrock接続に失敗しました: %s"
+}

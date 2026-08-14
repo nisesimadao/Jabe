@@ -1,0 +1,12 @@
+{
+  "jabe.multiplayer.bedrock_lan": "Bedrock LAN",
+  "jabe.lan.title": "Bedrock LAN Worlds",
+  "jabe.lan.searching": "Searching the local network...",
+  "jabe.lan.none": "No Bedrock LAN worlds found",
+  "jabe.lan.found": "Found %s Bedrock world(s)",
+  "jabe.lan.refresh": "Refresh",
+  "jabe.lan.connecting": "Connecting to %s through ViaBedrock...",
+  "jabe.lan.bridge_unavailable": "ViaFabricPlus is required for Bedrock connections",
+  "jabe.lan.protocol_unsupported": "BDS protocol %s is not supported by ViaBedrock protocol %s",
+  "jabe.lan.connect_failed": "Bedrock connection failed: %s"
+}
