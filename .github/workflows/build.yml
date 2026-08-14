@@ -12,8 +12,12 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v6
+      - name: load ViaBedrock deploy key
+        uses: webfactory/ssh-agent@v0.9.1
         with:
-          submodules: recursive
+          ssh-private-key: ${{ secrets.VIABEDROCK_DEPLOY_KEY }}
+      - name: checkout ViaBedrock source
+        run: git submodule update --init --recursive
       - name: validate gradle wrapper
         uses: gradle/actions/wrapper-validation@v6
       - name: setup jdk
